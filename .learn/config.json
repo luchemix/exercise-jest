@@ -1,0 +1,418 @@
+{
+    "config": {
+        "port": 3000,
+        "address": "https://brown-antlion-8h5bwita.ws-us03.gitpod.io",
+        "editor": {
+            "mode": "gitpod",
+            "version": "1.0.56"
+        },
+        "dirPath": "./.learn",
+        "configPath": "learn.json",
+        "outputPath": ".learn/dist",
+        "publicPath": "/preview",
+        "grading": "incremental",
+        "exercisesPath": ".learn/exercises",
+        "disableGrading": false,
+        "actions": [
+            "build",
+            "test",
+            "reset"
+        ],
+        "entries": {
+            "html": "index.html",
+            "vanillajs": "index.js",
+            "react": "app.jsx",
+            "node": "app.js",
+            "python3": "app.py",
+            "java": "app.java"
+        },
+        "translations": []
+    },
+    "title": "Your first unit tests with Javascript's Jest Framework",
+    "slug": "unit-test-with-jest",
+    "status": "draft",
+    "solution": "https://github.com/breatheco-de/exercise-unit-test-with-jest/tree/solution",
+    "repository": "https://github.com/breatheco-de/exercise-unit-test-with-jest",
+    "grading": "incremental",
+    "skills": [
+        "unit-testing",
+        "test-driven-dev"
+    ],
+    "language": "node",
+    "difficulty": "junior",
+    "preview": "https://github.com/breatheco-de/exercise-unit-test-with-jest/blob/main/.learn/assets/preview.jpeg?raw=true",
+    "duration": 16,
+    "technologies": [
+        "javascript",
+        "jest",
+        "unit testing"
+    ],
+    "description": "Give a series of exercises and solutions, create the unit tests to automaticaly grade the given solutions",
+    "session": 5023372654644039000,
+    "exercises": [
+        {
+            "position": 0,
+            "path": ".learn/exercises/01-intro",
+            "slug": "01-intro",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "01-intro",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/01-intro/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/01-intro/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 1,
+            "path": ".learn/exercises/02-setup",
+            "slug": "02-setup",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "02-setup",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/02-setup/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/02-setup/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 2,
+            "path": ".learn/exercises/03-installation",
+            "slug": "03-installation",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "03-installation",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/03-installation/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/03-installation/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 3,
+            "path": ".learn/exercises/04-entry-point",
+            "slug": "04-entry-point",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "04-entry-point",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/04-entry-point/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/04-entry-point/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 4,
+            "path": ".learn/exercises/05-sum-function",
+            "slug": "05-sum-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "05-sum-function",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/05-sum-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/05-sum-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 5,
+            "path": ".learn/exercises/06-test-file",
+            "slug": "06-test-file",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "06-test-file",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/06-test-file/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/06-test-file/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 6,
+            "path": ".learn/exercises/07-your-first-test",
+            "slug": "07-your-first-test",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "07-your-first-test",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/07-your-first-test/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/07-your-first-test/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 7,
+            "path": ".learn/exercises/08-running-the-test",
+            "slug": "08-running-the-test",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "08-running-the-test",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/08-running-the-test/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08-running-the-test/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 8,
+            "path": ".learn/exercises/08.1-analysing-the-test",
+            "slug": "08.1-analysing-the-test",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "08.1-analysing-the-test",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/08.1-analysing-the-test/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08.1-analysing-the-test/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 9,
+            "path": ".learn/exercises/08.2-second-analysis",
+            "slug": "08.2-second-analysis",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "08.2-second-analysis",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/08.2-second-analysis/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/08.2-second-analysis/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 10,
+            "path": ".learn/exercises/10-planning",
+            "slug": "10-planning",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "10-planning",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/10-planning/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/10-planning/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 11,
+            "path": ".learn/exercises/11-tests-skelleton",
+            "slug": "11-tests-skelleton",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "11-tests-skelleton",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/11-tests-skelleton/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/11-tests-skelleton/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 12,
+            "path": ".learn/exercises/12-implementing-the-function",
+            "slug": "12-implementing-the-function",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "12-implementing-the-function",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/12-implementing-the-function/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/12-implementing-the-function/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        },
+        {
+            "position": 13,
+            "path": ".learn/exercises/13-homework",
+            "slug": "13-homework",
+            "translations": {
+                "es": "README.es.md",
+                "us": "README.md"
+            },
+            "language": null,
+            "entry": null,
+            "title": "13-homework",
+            "graded": false,
+            "files": [
+                {
+                    "path": ".learn/exercises/13-homework/README.es.md",
+                    "name": "README.es.md",
+                    "hidden": true
+                },
+                {
+                    "path": ".learn/exercises/13-homework/README.md",
+                    "name": "README.md",
+                    "hidden": true
+                }
+            ],
+            "done": false
+        }
+    ]
+}
